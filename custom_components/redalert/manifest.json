@@ -1,7 +1,7 @@
 {
   "domain": "redalert",
   "name": "Red Alert",
-  "documentation": "https://your-documentation-url.com",
+  "documentation": "https://github.com/shlomo120/RedAlert",
   "dependencies": [],
   "codeowners": [],
   "requirements": [],
