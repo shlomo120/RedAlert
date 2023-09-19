@@ -28,21 +28,7 @@ To manually install the Red Alert integration, follow these steps:
 
 To configure the Red Alert integration, follow these steps:
 
-1. Go to the Home Assistant Configuration UI.
-
-2. Click on "Integrations" in the sidebar.
-
-3. Click the "+" button to add a new integration.
-
-4. Search for "Red Alert" and select it.
-
-5. Follow the prompts to configure the integration. You will be asked to provide your city name.
-
-6. Once configured, you can add the Red Alert sensor to your Home Assistant dashboard.
-
-## Usage
-
-The Red Alert sensor will display emergency alerts specific to your city. Alerts will be updated at regular intervals (as specified in your configuration).
+1. In your configuration.yaml file, add the configuration for your integration under the sensor section:
 
 `Configuration.yaml:`
 ```
@@ -51,8 +37,20 @@ sensor:
     city: "תל אביב"  # Specify your chosen city here
 ```
 
+2. Adjust the city value to match your chosen city.
+   The list of cities as identified in the plugin can be found in `cities.txt`
 
- > The list of cities as identified in the plugin can be found in `cities.txt`
+4. After adding the configuration to your configuration.yaml file, save the file and restart your Home Assistant instance to apply the changes.
+
+5. Once Home Assistant has restarted, you should be able to see the sensor in your Home Assistant user interface under the "Developer Tools" > "States" section. Look for a sensor with a name like `sensor.redalert` .
+The sensor will display the state True or False depending on whether there is an active alert for the specified city.
+
+6. Once configured, you can add the Red Alert sensor to your Home Assistant dashboard.
+
+## Usage
+
+The Red Alert sensor will display emergency alerts specific to your city. Alerts will be updated at regular intervals (as specified in your configuration).
+
 
 
  ## Troubleshooting 
