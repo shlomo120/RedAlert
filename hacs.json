@@ -1,5 +1,6 @@
 {
   "name": "Red Alert",
+  "render_readme": true,
   "description": "Home Assistant custom integration for monitoring Red Alert alerts in Israel.",
   "version": "1.0.0",
   "url": "https://github.com/shlomo120/RedAlert/"
