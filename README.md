@@ -63,6 +63,6 @@ sensor:
 
 <!-- Contributions to this project are welcome. If you'd like to contribute, please follow the guidelines in our [CONTRIBUTING.md](CONTRIBUTING.md) file. -->
 
-## License
+<!-- ## License  -->
 
-This integration is licensed under the [MIT License](LICENSE).
+<!-- This integration is licensed under the [MIT License](LICENSE). --> 
