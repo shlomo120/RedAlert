@@ -1,0 +1,10 @@
+{
+  "domain": "redalert",
+  "name": "Red Alert",
+  "documentation": "https://your-documentation-url.com",
+  "dependencies": [],
+  "codeowners": [],
+  "requirements": [],
+  "iot_class": "data",
+  "config_flow": true
+}
