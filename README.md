@@ -44,13 +44,24 @@ To configure the Red Alert integration, follow these steps:
 
 The Red Alert sensor will display emergency alerts specific to your city. Alerts will be updated at regular intervals (as specified in your configuration).
 
-## Troubleshooting
+`Configuration.yaml:`
+```
+sensor:
+  - platform: redalert
+    city: "תל אביב"  # Specify your chosen city here
+```
 
-If you encounter any issues or have questions about this integration, feel free to reach out on the [Home Assistant community forums](https://community.home-assistant.io/).
 
-## Contributing
+ > The list of cities as identified in the plugin can be found in `cities.txt`
 
-Contributions to this project are welcome. If you'd like to contribute, please follow the guidelines in our [CONTRIBUTING.md](CONTRIBUTING.md) file.
+
+ ## Troubleshooting 
+
+  If you encounter any issues or have questions about this integration, feel free to reach out on the [Home Assistant community forums](https://community.home-assistant.io/). 
+
+<!--## Contributing -->
+
+<!-- Contributions to this project are welcome. If you'd like to contribute, please follow the guidelines in our [CONTRIBUTING.md](CONTRIBUTING.md) file. -->
 
 ## License
 
